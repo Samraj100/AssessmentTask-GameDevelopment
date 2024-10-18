@@ -1,16 +1,5 @@
 # Identifying and Defining
 
-# Brainstorming 
-Skills: 
-- Hand-eye coordination
-- Patience
-- Problem solving
-- Creativity
-
-Real world issues:
-- Climate change
-- Deforestation
-
 # PMI
 
 # Rocket League
@@ -32,30 +21,38 @@ Interesting: It contains different game modes like creative and survival, where 
 
 # Tetris
 
-Plus: 
+Plus: Strategic game which requires a lot of thinking to succeed and progress higher. 
 
-Minus: 
+Minus: The game gets inreasingly difficult and is very hard to master. It can cause people to get unmotivated and bored of the game quickly. 
 
-Interesting:
+Interesting: Quite a simple game with easy to understand mechanics, uncluding very few controls.
 
 
 Need: To improve hand to eye coordination and and patience for children which allows for creativity and problem solving skills useful in the real world. 
 
-Problem statement: It is helpful for young children to get engaged in games which provide insight and educate them in real world issues. Using a 2d game to visualise these ideas will be effective for people to use different strategies to progress through the game
+Problem statement: It is helpful for young children to get engaged in games which provide insight and educate them in real world situations. Using a 2d game to visualise these ideas will be effective for people to use different strategies to progress through the game
+
+Skill development: To develop the skills to make my game, I will use learn.unity for tutorials and explanations. 
 
 # Requirements outline:
-Inputs: W, A, S and D to control movement in basic directions. Extra keys will control jumping and interacting with surroundings.
 
-Processing: Game will provide a score that increases as the player survives. 
+**Inputs:**
+Directional keys will control movement in basic directions. Extra keys will control any additional abilities or interactions.
 
-Outputs: It will show a sprite and 
+**Processing:** 
+Game will update the score in response to a specific goal that has been reached, which will be reset if any collisions are detected. The program will also update the position of the player. 
 
-Transmission: Will there be any data transmission requirements?
+**Outputs:** 
+Game will display the character position and score, in addition to sound effects based on the user's actions.
 
-Storage: What data will need to be stored? 
+**Transmission:** 
+My project does not require any data transmissions.
 
-## Functional and Non Functional Requirements
-User Interaction
+**Storage:**
+The game will store the user's high score locally as well as any customised settings.
+
+# Functional Requirements
+**User Interaction:** The user will interact with the game through keyboard inputs. The provided inputs will manage movement of a character, any selected options, and additional abilities. W, A, S and D will control basic movements. Space will control extra inputs required by the game such as settings or exiting. 
 
 ## Social and Ethical Issues
 
