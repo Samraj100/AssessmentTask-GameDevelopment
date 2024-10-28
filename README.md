@@ -2,7 +2,7 @@
 
 # PMI
 
-# Rocket League
+## Rocket League
 
 Plus: Heavily relies on hand-eye coordination, and provides a chellenge for people trying to progress higher in the game. It also requires teamwork and communication for a better chance at progression. 
 
@@ -11,7 +11,7 @@ Minus: The skill ceiling may be too high and a lot of people might struggle or t
 Interesting: It is a unique game which introduces a combination of soccer and driving. 
 
 
-# Minecraft 
+## Minecraft 
 
 Plus: A relaxing game which develops basic motor skills like hand to eye coordination. It allows for creative outside of the box thinking to survive and progress through the game.
 
@@ -19,7 +19,7 @@ Minus: Addiction, and it is an online game that may lead to cyber bullying.
 
 Interesting: It contains different game modes like creative and survival, where people can focus on achieving a goal with their own environment. 
 
-# Tetris
+## Tetris
 
 Plus: Strategic game which requires a lot of thinking to succeed and progress higher. 
 
@@ -60,7 +60,48 @@ The game will store the user's high score locally as well as any customised sett
 
 **Level Progression or Simulation Stages:** The player will advance through the game by unlocking new levels. This is done by completing a specific taks like surviving a certain amount of time. 
 
-**Saving and Loading Data:** 
+**Saving and Loading Data:** Data will be stored locally on the device that is being used. The progress will be saved and will load everytime the game starts. Game might give an option to save to cloud.
 
-## Social and Ethical Issues
+# Non-Functional Requirements
 
+**Performance Requirements:** Since the game is saved locally, it doesn't need internet and will load is a reasonable amount of time (3-5 seconds). There shouldn't be any latency issues, and the game graphics will not be too high quality so there will be little to no delay. 
+
+**Usability Requirements:** The game will include instructions which the user can view any time they want, as well as an on screen prompt that flashes onto the screen for a few seconds after playing the game. 
+
+**Compatability Requirements:** The game must be compatible with PC, using the keyboard and touchpad/mouse.
+
+**Scalability Requirements:** The game should be able to scale to add more levels and features that may increase personalisation. 
+
+# Consideration of Social and Ethical Issues
+
+**Equity:** The quality of being fair to everyone by valuing their own needs, in order for an equal outcome.\
+**Accessability:** Being able to be used or reached by others.
+
+## Accessability
+
+My project should be usable for people of all abilities. Since the game requires a lot of hand-eye coordination, some people would progress and process information quicker than others. To combat this there would be some settings which allow players to customize sensitivity, controls and visuals. Some in-game assistance will also be implemented, and this would include some form of instructions or prompts which would help the player get used to the controls. 
+
+## Privacy and Data Protection
+
+My project won't collect any sensitive data, but it will store high scores and achievements. To increase security, the game will autosave locally so there will be no risk of data breaches. In addition, the game gives an option to save progress to the cloud as a way to access the game in multiple places while still offering security. 
+
+## Fairness and Representation
+
+My project will establish no form of harmful stereotypes, and it will not connect with any violations that may affect a person's opinion on the game. It will avoid unnecessary bias due to the fact that the characters will not be human - instead it will use objects like UFOs and vehicles to represent the player. 
+
+## Mental and Emotional Wellbeing
+
+My game will imply difficult gameplay but it shouldn't affect the user's mental health negatively while playing. The game will require a lot of hand-eye coordination so it may be difficult to get the hang of, but it is not necessarily fast paced and it will feel rewarding when completing echievements. 
+
+## Cultural Sensitivities
+
+The content in this game should not be offensive to other cultures. It is very unlikely to be the case, since the game will incoorporate levels which are only reflective of the natural world. It also shouldn't be misunderstood, as certain levels will retain their specific theme like 'space' or 'the ocean'. 
+
+
+# Researching and Planning
+
+|Existing Ideas|Plus|Minus|Implications|
+|---|---|---|---|
+|Rocket League|Heavily relies on hand-eye coordination, and provides a chellenge for people trying to progress higher in the game. It also requires teamwork and communication for a better chance at progression|The skill ceiling may be too high and a lot of people might struggle or try too hard to be as good as they want, which may result in addiction|It is a unique game which introduces a combination of soccer and driving|
+|Minecraft|A relaxing game which develops basic motor skills like hand to eye coordination. It allows for creative outside of the box thinking to survive and progress through the game|Addiction, and it is an online game that may lead to cyber bullying|It contains different game modes like creative and survival, where people can focus on achieving a goal with their own environment|
+|Tetris|Strategic game which requires a lot of thinking to succeed and progress higher|The game gets inreasingly difficult and is very hard to master. It can cause people to get unmotivated and bored of the game quickly|Quite a simple game with easy to understand mechanics, uncluding very few controls|
