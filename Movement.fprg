@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="samraj.singh"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-30 12:07:00 PM"/>
+        <attribute name="created" value="c2FtcmFqLnNpbmdoOyAwNENGNEJCMkQwN0NQOyAyMDI0LTEwLTI5OyAxMDo1MjoyMiBBTTsgMzM2Nw=="/>
+        <attribute name="edited" value="c2FtcmFqLnNpbmdoOyAwNENGNEJCMkQwN0NQOyAyMDI0LTEwLTMwOyAxMjowNzowMCBQTTsgMzM3Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="BEGINmovement" type="Integer" variable="ENDmovement">
+        <parameters/>
+        <body>
+            <input variable="userinput"/>
+            <if expression="&quot;If A pressed&quot;">
+                <then>
+                    <output expression="&quot;Move player left&quot;"/>
+                </then>
+                <else>
+                    <if expression="&quot;If D pressed&quot;">
+                        <then>
+                            <output expression="&quot;Move player right&quot;"/>
+                        </then>
+                        <else>
+                            <if expression="&quot;If W pressed&quot;">
+                                <then>
+                                    <output expression="&quot;Move player up&quot;"/>
+                                </then>
+                                <else>
+                                    <if expression="&quot;If S pressed&quot;">
+                                        <then>
+                                            <output expression="&quot;Move player down&quot;"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
