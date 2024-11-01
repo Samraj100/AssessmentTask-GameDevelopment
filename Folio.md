@@ -102,6 +102,47 @@ The content in this game should not be offensive to other cultures. It is very u
 
 |Existing Ideas|Plus|Minus|Implications|
 |---|---|---|---|
-|Rocket League|Heavily relies on hand-eye coordination, and provides a chellenge for people trying to progress higher in the game. It also requires teamwork and communication for a better chance at progression|The skill ceiling may be too high and a lot of people might struggle or try too hard to be as good as they want, which may result in addiction|It is a unique game which introduces a combination of soccer and driving|
-|Minecraft|A relaxing game which develops basic motor skills like hand to eye coordination. It allows for creative outside of the box thinking to survive and progress through the game|Addiction, and it is an online game that may lead to cyber bullying|It contains different game modes like creative and survival, where people can focus on achieving a goal with their own environment|
-|Tetris|Strategic game which requires a lot of thinking to succeed and progress higher|The game gets inreasingly difficult and is very hard to master. It can cause people to get unmotivated and bored of the game quickly|Quite a simple game with easy to understand mechanics, uncluding very few controls|
+|Rocket League![Alt text](rl_image.jpg)|Heavily relies on hand-eye coordination, and provides a chellenge for people trying to progress higher in the game. It also requires teamwork and communication for a better chance at progression|The skill ceiling may be too high and a lot of people might struggle or try too hard to be as good as they want, which may result in addiction|It is a unique game which introduces a combination of soccer and driving. Implications I would use is the progression system. This will be applied as levels that get increasingly harder, to keep the player engaged in the game for a longer period of time.|
+|Minecraft![Alt text](minecraft.webp)|A relaxing game which develops basic motor skills like hand to eye coordination. It allows for creative outside of the box thinking to survive and progress through the game|Addiction, and it is an online game that may lead to cyber bullying|It contains different game modes like creative and survival, where people can focus on achieving a goal with their own environment. In my own game, I could add an easy and hard mode to cater to more people's tastes and have a wider range of skill.|
+|Tetris![Alt text](tetris.webp)|Strategic game which requires a lot of thinking to succeed and progress higher|The game gets inreasingly difficult and is very hard to master. It can cause people to get unmotivated and bored of the game quickly|Quite a simple game with easy to understand mechanics, uncluding very few controls. This will be similar to my game, as there will only be a few controls but will still require a lot of concentration to survive.|
+
+## Flowcharts
+![Alt text](Movement.png)
+
+BEGIN Movement\
+&nbsp; &nbsp; INPUT userinput\
+&nbsp; &nbsp; IF 'A' pressed THEN\
+&nbsp; &nbsp; &nbsp; &nbsp; Move player left\
+&nbsp; &nbsp; ELSE IF 'D' pressed THEN\
+&nbsp; &nbsp; &nbsp; &nbsp; Move player right\
+&nbsp; &nbsp; ELSE IF 'W' pressed THEN\
+&nbsp; &nbsp; &nbsp; &nbsp; Move player up\
+&nbsp; &nbsp; ELSE IF 'S' pressed THEN\
+&nbsp; &nbsp; &nbsp; &nbsp; Move player down\
+&nbsp; &nbsp; ENDIF\
+END Movement
+
+![Alt text](Splashscreen.png)
+
+BEGIN\
+&nbsp; &nbsp; INPUT userinput\
+&nbsp; &nbsp; IF 'Play' pressed THEN\
+&nbsp; &nbsp; &nbsp; &nbsp; Start game\
+&nbsp; &nbsp; ELSE IF 'Quit' pressed THEN\
+&nbsp; &nbsp; &nbsp; &nbsp; End game\
+&nbsp; &nbsp; ELSE IF 'Instructions' pressed THEN\
+&nbsp; &nbsp; &nbsp; &nbsp; Show instructions\
+&nbsp; &nbsp; ENDIF\
+END
+
+![Alt text](Ability.png)
+
+BEGIN\
+&nbsp; &nbsp; INPUT userinput\
+&nbsp; &nbsp; IF player has ability THEN\
+&nbsp; &nbsp; &nbsp; &nbsp; IF 'Right click' pressed THEN\
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Toggle ability\
+&nbsp; &nbsp; ELSE IF 'Left click' pressed THEN\
+&nbsp; &nbsp; &nbsp; &nbsp; Use ability\
+&nbsp; &nbsp; ENDIF\
+END
