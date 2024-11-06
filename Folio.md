@@ -176,4 +176,4 @@ END
 |There is a 'SELECT' button. The background will contain an image of the planet that reflects the theme of the level. There is a spiral in the background.|'SELECT' will make the user equip the current character and save it when they exit the scene. |The picture of the planet in the background will be slowly rotating, and the details in the background will probably have some flashing or moving effects to keep it from looking static.|
 
 # Gantt Chart
-![alt text](Gantt.png)
+![alt text](GanttChart.png)
