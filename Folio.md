@@ -52,9 +52,9 @@ My project does not require any data transmissions.
 The game will store the user's high score locally as well as any customised settings.
 
 # Functional Requirements
-**User Interaction:** The user will interact with the game through keyboard inputs. The provided inputs will manage movement of a character, any selected options, and additional abilities. W, A, S and D will control basic movements. Space will control extra inputs required by the game such as settings or exiting. Moving the mouse or touchpad will change the direction the character wil face for aiming. 
+**User Interaction:** The user will interact with the game through keyboard inputs. The provided inputs will manage movement of a character, any selected options, and additional abilities. W, A, S and D will control basic movements. Moving the mouse or touchpad will change the direction the character wil face for aiming. 
 
-**Core Gameplay or Simulation Mechanics:** The player will need to control a character that moves in basic directions in order to dodge obstacles. The game will also allow users to toggle between different power-ups that will be collected in the game. Some power-ups like shooters will be aimed by the player to destroy incoming obstacles for a better chance of survival. 
+**Core Gameplay or Simulation Mechanics:** The player will need to control a character that moves in basic directions in order to dodge obstacles. The game will also allow users to collect power-ups while in the game. Some power-ups like shooters will be aimed by the player to destroy incoming obstacles for a better chance of survival. Other power-ups will be activated as soon as the player picks them up.
 
 **Scoring and Feedback:** There will be a progress tracking system which will track how long the player will survive without colliding with any obstacles. There will be a scoring system based on how many seconds the player will survive. 
 
@@ -83,11 +83,11 @@ My project should be usable for people of all abilities. Since the game requires
 
 ## Privacy and Data Protection
 
-My project won't collect any sensitive data, but it will store high scores and achievements. To increase security, the game will autosave locally so there will be no risk of data breaches. In addition, the game gives an option to save progress to the cloud as a way to access the game in multiple places while still offering security. 
+My project won't collect any sensitive data, but it will store high scores and achievements. To increase security, the game will autosave locally so there will be no risk of data breaches. In addition, the game gives an option to save progress to the cloud as a way to access the game in multiple places while still adding security. 
 
 ## Fairness and Representation
 
-My project will establish no form of harmful stereotypes, and it will not connect with any violations that may affect a person's opinion on the game. It will avoid unnecessary bias due to the fact that the characters will not be human - instead it will use objects like UFOs and vehicles to represent the player. 
+My project will establish no form of harmful stereotypes, and it will not connect with any violations that may affect a person's opinion on the game. It will avoid unnecessary bias due to the fact that the characters will not be human - instead it will use objects like UFOs and vehicles to represent the player. Certain characters will only be available in certain levels depending on their theme, and they are even customizable.
 
 ## Mental and Emotional Wellbeing
 
@@ -95,7 +95,7 @@ My game will imply difficult gameplay but it shouldn't affect the user's mental 
 
 ## Cultural Sensitivities
 
-The content in this game should not be offensive to other cultures. It is very unlikely to be the case, since the game will incoorporate levels which are only reflective of the natural world. It also shouldn't be misunderstood, as certain levels will retain their specific theme like 'space' or 'the ocean'. 
+The content in this game should not be offensive to other cultures. It is very unlikely to be the case, since the game will incoorporate levels which are only reflective of the natural world. It also shouldn't be misunderstood, as certain levels will retain their specific theme like 'Outer Space' or 'The Ocean'. 
 
 
 # Researching and Planning
@@ -148,6 +148,23 @@ BEGIN\
 END
 
 # Storyboard
+![alt text](GameMenuFlow.png)
+
+![alt text](SplashscreenScene.png)
+|Assets|Code|Animations|
+|---|---|---|
+|There is a 'PLAY', 'SETTINGS' and 'QUIT' button. The background will contain an image of the earth. There is a spiral in the background to fill up empty space. Everything in the splashscreen is also monochrome.|'PLAY' will send the user to the level scene. 'SETTINGS' will send the user to the settings screen. 'QUIT' will close the program.|The picture of the earth in the background will be slowly rotating, and the details in the background will probably have some flashing or mocing effects to keep it from looking static.|
+
+![alt text](<Level 3.png>)
+![alt text](<Level 1.png>)
+|Assets|Code|Animations|
+|---|---|---|
+|There is a 'PLAY', 'SETTINGS' and 'QUIT' button. The background will contain an image of the earth. There is a spiral in the background to fill up empty space. Everything in the splashscreen is also monochrome.|'PLAY' will send the user to the level scene. 'SETTINGS' will send the user to the settings screen. 'QUIT' will close the program.|The picture of the earth in the background will be slowly rotating, and the details in the background will probably have some flashing or mocing effects to keep it from looking static.|
+
+![alt text](SettingsScene.png)
+|Assets|Code|Animations|
+|---|---|---|
+|There is a 'PLAY', 'SETTINGS' and 'QUIT' button. The background will contain an image of the earth. There is a spiral in the background to fill up empty space. Everything in the splashscreen is also monochrome.|'PLAY' will send the user to the level scene. 'SETTINGS' will send the user to the settings screen. 'QUIT' will close the program.|The picture of the earth in the background will be slowly rotating, and the details in the background will probably have some flashing or mocing effects to keep it from looking static.|
 
 
 # Gantt Chart
