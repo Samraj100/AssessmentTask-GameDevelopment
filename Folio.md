@@ -153,19 +153,27 @@ END
 ![alt text](SplashscreenScene.png)
 |Assets|Code|Animations|
 |---|---|---|
-|There is a 'PLAY', 'SETTINGS' and 'QUIT' button. The background will contain an image of the earth. There is a spiral in the background to fill up empty space. Everything in the splashscreen is also monochrome.|'PLAY' will send the user to the level scene. 'SETTINGS' will send the user to the settings screen. 'QUIT' will close the program.|The picture of the earth in the background will be slowly rotating, and the details in the background will probably have some flashing or mocing effects to keep it from looking static.|
+|There is a 'PLAY', 'SETTINGS' and 'QUIT' button. The background will contain an image of the earth. There is a spiral in the background to fill up empty space. Everything in the splashscreen is also monochrome.|'PLAY' will send the user to the level scene. 'SETTINGS' will send the user to the settings screen. 'QUIT' will close the program.|The picture of the earth in the background will be slowly rotating, and the details in the background will probably have some flashing or moving effects to keep it from looking static.|
 
-![alt text](<Level 3.png>)
 ![alt text](<Level 1.png>)
 |Assets|Code|Animations|
 |---|---|---|
-|There is a 'PLAY', 'SETTINGS' and 'QUIT' button. The background will contain an image of the earth. There is a spiral in the background to fill up empty space. Everything in the splashscreen is also monochrome.|'PLAY' will send the user to the level scene. 'SETTINGS' will send the user to the settings screen. 'QUIT' will close the program.|The picture of the earth in the background will be slowly rotating, and the details in the background will probably have some flashing or mocing effects to keep it from looking static.|
+|There is text in the corner that states the current level being played, and on the other corner there is a goal displayed which the player would follow. There will be a character sprite in each level, which will follow a different theme. There will be different obstacles each level. The dotted lines are also obstacles.|The inputs from the user include W, A, S, D. The user can either use a mouse or a touchpad to drag and aim.|The bullets will be constantly moving across the screen, and the player will have small animations when moving any direction.|
+
+![alt text](<Level 3.png>)
+|Assets|Code|Animations|
+|---|---|---|
+|There is text in the corner that states the current level being played, and on the other corner there is a goal displayed which the player would follow. There will be a character sprite in each level, which will follow a different theme. There will be different obstacles each level.The red marking on the ground is also an obstacle.|The inputs from the user include W, A, S, D. The user can either use a mouse or a touchpad to drag and aim.|The bullets will be constantly moving across the screen, and the player will have small animations when moving any direction.|
 
 ![alt text](SettingsScene.png)
 |Assets|Code|Animations|
 |---|---|---|
-|There is a 'PLAY', 'SETTINGS' and 'QUIT' button. The background will contain an image of the earth. There is a spiral in the background to fill up empty space. Everything in the splashscreen is also monochrome.|'PLAY' will send the user to the level scene. 'SETTINGS' will send the user to the settings screen. 'QUIT' will close the program.|The picture of the earth in the background will be slowly rotating, and the details in the background will probably have some flashing or mocing effects to keep it from looking static.|
+|There is a 'LOAD', 'ACCOUNT', 'PERSONALISATION' and 'HIGH SCORES' button. The background will contain an image of the earth. There is a spiral in the background. Everything in the scene is monochrome.|'ACCOUNT' will prompt the user to create an account. 'LOAD' will load all the data of the game. 'PERSONALISATION' will give the user options on how they want their game to look.|The picture of the earth in the background will be slowly rotating, and the details in the background will probably have some flashing or moving effects to keep it from looking static.|
 
+![alt text](CharacterSelect.png)
+|Assets|Code|Animations|
+|---|---|---|
+|There is a 'SELECT' button. The background will contain an image of the planet that reflects the theme of the level. There is a spiral in the background.|'SELECT' will make the user equip the current character and save it when they exit the scene. |The picture of the planet in the background will be slowly rotating, and the details in the background will probably have some flashing or moving effects to keep it from looking static.|
 
 # Gantt Chart
 ![alt text](Gantt.png)
